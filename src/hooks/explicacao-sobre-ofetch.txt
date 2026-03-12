@@ -1,0 +1,20 @@
+1 - quando o fetch é executado
+
+ele retorna um arquivo Promise quando a requisição é concluida
+
+Promise significa que algo vai acontecer - promessa de algo no futuro
+
+2 - o then serve para definir o que vai fazer com essa reposta do fetch (a Promise)
+
+a promise retorna um objeto Response do servidor que é aonde tem a resposta 
+
+quando terminar a operação do fetch ele vai executar esta função
+
+servidor envia apenas JSON
+
+entao é executado .then(res => resp.json())
+
+o .json() transforma a resposta da api no formato json (objeto javascript) que é executavel pelo JS
+
+
+fluxo - fetch -> espera bater no end point - promise - executa then -> resposta em objeto javascript

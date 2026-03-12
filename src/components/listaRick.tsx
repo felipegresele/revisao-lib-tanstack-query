@@ -1,6 +1,16 @@
 import useRickData from "../hooks/rick";
 import type { RickDataSchema } from "../schema/rickDataSchema";
 
+export function Route() {
+
+    return (
+        <div>
+            <h1>Lista dos Personagens</h1>
+            <ListaRick />
+        </div>
+    )
+}
+
 export function ListaRick() {
 
     const {data} = useRickData()
@@ -17,5 +27,4 @@ export function ListaRick() {
             })}
         </div>
     )
-
 }

@@ -1,10 +1,10 @@
-import { ListaRick } from "./components/listaRick"
+import { Route } from "./components/listaRick"
 
 function App() {
 
   return (
     <>
-      <ListaRick />
+      <Route />
     </>
   )
 }
