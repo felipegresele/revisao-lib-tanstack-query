@@ -1,7 +1,7 @@
 import useRickData from "../hooks/rick";
 import type { RickDataSchema } from "../schema/rickDataSchema";
 
-export function Route() {
+export function RouteRick() {
 
     return (
         <div>
